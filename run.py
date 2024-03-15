@@ -20,3 +20,20 @@ def game_rules(data):
         return True
     else:
         print(" Please enter 'Y' or 'N'.")
+
+
+def get_words():
+    word = random.choice(words_list)
+    return word.upper()
+
+def play(word):
+    word_complettion = "_" * len(word)
+    guessed = false 
+    guessed_letters = []
+    guessed_words = []
+    tries = 6
+    print("let's play Hangman!")
+    print(display_hangman(tries))
+    print(word_complettion)
+    print("\n")
+    
