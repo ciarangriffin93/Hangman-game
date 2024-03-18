@@ -1,6 +1,7 @@
 import random 
 from words import words_list
 from hangman_stages import hangman_stages_num
+import string 
 
 def game_rules(data):
     """
