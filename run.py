@@ -5,6 +5,9 @@ import string
 
 
 def get_valid_words(words_list):
+    """
+    Function that retrieves a random word from a list of words stored in a data file. 
+    """
     word = random.choice(words_list)
     while '-' in words or ' ' in words:
         word =random.choice(words_list)
