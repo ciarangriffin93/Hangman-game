@@ -4,8 +4,11 @@ from hangman_stages import hangman_stages_num
 import string 
 
 
-def get_words():
+def get_valid_words(words_list):
     word = random.choice(words_list)
+    while '-' in words or ' ' in words:
+        word =random.choice(words_list)
+    
     return word.upper()
 
 def play(word):
