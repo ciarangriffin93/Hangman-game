@@ -1,4 +1,4 @@
-hangman_stages {
+hangman_stages_num {
     0: """
         __________
         |/       |

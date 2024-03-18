@@ -1,5 +1,6 @@
 import random 
-from wrods import words_list
+from words import words_list
+from hangman_stages import hangman_stages_num
 
 def game_rules(data):
     """
