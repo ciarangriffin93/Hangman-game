@@ -42,3 +42,23 @@ def hangman():
                 word used_letter.remove(user_letter)
                 print(' ')
 
+            else:
+                hangman_stages =hangman_stages -1 
+                print('\n Your letter', user_letter, 'is not the word')
+
+        elif used_letter in used_letters:
+            print('\nYou have already used the letter. Guess another letter.') 
+
+        else:
+            print('\n That is not a valid letter') 
+
+    if hangman_stages ==0: # end once the user reaches the maximum number of errors allowed
+        print(hangman_stages_num[hangman_stages])
+        print('You died, sorry! The word was', words)
+
+    else: # end game as user guessed letters
+        print('YAY! you guessed the word', words)    
+
+
+                       
+
