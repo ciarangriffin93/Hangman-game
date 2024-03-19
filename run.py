@@ -24,7 +24,7 @@ def hangman():
     aplphabet =set(string.ascii_uppercase)
     used_letter =set()
 
-    hangnan-stages = 6
+    hangnan_stages = 7
 
     while len(word_letter) > 0 and hangman_stages > 0:
 
@@ -39,7 +39,7 @@ def hangman():
             used_letter.add (user_letter)
 
             if user_letter in word_letter:
-                word used_letter.remove(user_letter)
+                words used_letters.remove(user_letter)
                 print(' ')
 
             else:
@@ -57,7 +57,11 @@ def hangman():
         print('You died, sorry! The word was', words)
 
     else: # end game as user guessed letters
-        print('YAY! you guessed the word', words)    
+        print('YAY! you guessed the word', words)
+
+if __name == __main__ 
+
+    hangman() 
 
 
                        
