@@ -33,3 +33,12 @@ def hangman():
         words_list = [letter if letter in used_letter else '-' for letter in words]
         print(hangman_stages_num)
         print('current Word:' ,' '.join(words_list))
+
+        user_letter = input("Guess a letter: ").upper()
+        if used_letter in aplphabet -used_letters:
+            used_letter.add (user_letter)
+
+            if user_letter in word_letter:
+                word used_letter.remove(user_letter)
+                print(' ')
+
