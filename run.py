@@ -15,6 +15,9 @@ def get_valid_words(words_list):
     return word.upper()
 
 def hangman():
+    """
+    Function that plays the game
+    """
 
     word =get_valid_words(words_list)
     word_letter =set(words)
@@ -24,3 +27,9 @@ def hangman():
     hangnan-stages = 6
 
     while len(word_letter) > 0 and hangman_stages > 0:
+
+        print('You have ', hangman_stages, 'hangman satges left and you have used these letter: ', ' '.join(used_letter))
+
+        words_list = [letter if letter in used_letter else '-' for letter in words]
+        print(hangman_stages_num)
+        print('current Word:' ,' '.join(words_list))
