@@ -3,6 +3,17 @@ from words import words
 from hangman_stages import live_stages_dict
 import string 
 
+def output_area():
+    """
+    The following text: output user sees messages.
+    """
+    get_name = input('Welcome to Hangman! Enter your name: ')
+
+    while get_name == "":
+        print('please enter a valid name')
+        get_name = input('Welcome to Hangman! Enter your name: ')
+
+    print('\n Hi', get_name)
 
 def get_valid_word(words):
     """
