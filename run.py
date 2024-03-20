@@ -7,11 +7,11 @@ def output_area():
     """
     The following text: output user sees messages.
     """
-    get_name = input('Welcome to Hangman! Enter your name: ')
+    get_name = input('Welcome to Hangman Game! Enter your name: ')
 
     while get_name == "":
         print('please enter a valid name')
-        get_name = input('Welcome to Hangman! Enter your name: ')
+        get_name = input('Welcome to Hangman Game! Enter your name: ')
 
     print('\n Hi', get_name)
 
@@ -70,6 +70,7 @@ def hangman():
         print('Well Done!! you guessed the word', word)
 
 def main():
+    output_area()
     hangman() 
 
 main()    
