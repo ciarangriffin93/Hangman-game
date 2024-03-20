@@ -1,16 +1,16 @@
 import random 
 from words import words
-from hangman_stages import hangman_stages_num
+from hangman_stages import live_stages_dict
 import string 
 
 
-def get_valid_words(words_list):
+def get_valid_word(words):
     """
     Function that retrieves a random word from a list of words stored in a data file. 
     """
-    word = random.choice(words_list)
-    while '-' in words or ' ' in words:
-        word =random.choice(words_list)
+    word = random.choice(words)
+    while '-' in word or ' ' in word:
+        word =random.choice(words)
     
     return word.upper()
 
@@ -19,48 +19,46 @@ def hangman():
     Function that plays the game
     """
 
-    word = get_valid_words(words)
-    word_letter = set(words)
+    word = get_valid_word(words)
+    word_letters = set(word)
     aplphabet = set(string.ascii_uppercase)
-    used_letter =set()
+    used_letters = set()
 
-    hangnan_stages = 7
+    live = 7
 
-    while len(word_letter) > 0 and hangman_stages > 0:
+    while len(word_letters) > 0 and live > 0:
 
-        print('You have ', hangman_stages, 'hangman satges left and you have used these letter: ', ' '.join(used_letter))
+        print('You have ', live, 'live satges left and you have used these letters: ', ' '.join(used_letters))
 
-        words_list = [letter if letter in used_letter else '-' for letter in words]
-        print(hangman_stages_num)
-        print('current Word:' ,' '.join(words_list))
-
+        word_list = [letter if letter in used_letters else '-' for letter in words]
+        print(live_stages_dict[live])
+        print('current Word:' ,' '.join(word_list))
         user_letter = input("Guess a letter: ").upper()
-        if used_letter in aplphabet -used_letters:
-            used_letter.add (user_letter)
+        if user_letter in aplphabet - used_letters:
+            used_letters.add(user_letter)
 
-            if user_letter in word_letter:
-                words used_letters.remove(user_letter)
+            if user_letter in word_letters:
+                used_letters.remove(user_letter)
                 print(' ')
 
             else:
-                hangman_stages =hangman_stages -1 
+                live = live -1 
                 print('\n Your letter', user_letter, 'is not the word')
 
         elif used_letter in used_letters:
-            print('\nYou have already used the letter. Guess another letter.') 
+            print('\n You have already used the letter. Guess another letter.') 
 
         else:
             print('\n That is not a valid letter') 
 
-    if hangman_stages ==0: # end once the user reaches the maximum number of errors allowed
-        print(hangman_stages_num[hangman_stages])
-        print('You died, sorry! The word was', words)
+    if live == 0: 
+        print(live_stages_dict[live])
+        print('You died, sorry! The word was', word)
 
     else: # end game as user guessed letters
-        print('YAY! you guessed the word', words)
+        print('Well Done!! you guessed the word', word)
 
-if __name == __main__ 
-
+if __name__ == '__main__':
     hangman() 
 
 

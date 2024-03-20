@@ -1,4 +1,4 @@
-hangman_stages_num = {
+live_stages_dict = {
         0: """
                 ___________
                | /        | 
