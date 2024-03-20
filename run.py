@@ -78,9 +78,22 @@ def hangman():
     else: # end game as user guessed letters
         print('Well Done!! you guessed the word', word)
 
+def play_game():
+    """
+    Create a function that provides the option to play the game again." 
+    """
+    start_over = input("Would you like to play again? enter y for yes or "
+                       "If the player doesn't want to play, they can use for exit() ")
+
+    if start_over.lower() == "y":
+        main()
+
+    else:
+        exit()            
+
 def main():
     output_area()
-    hangman() 
+    hangman()
 
 main()    
 
