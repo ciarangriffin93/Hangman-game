@@ -20,7 +20,7 @@ def get_valid_word(words):
     Function that retrieves a random word from a list of words stored in a data file. 
     """
     word = random.choice(words)
-    while '-' in word or ' ' in word:
+    while '_' in word or ' ' in word:
         word =random.choice(words)
     
     return word.upper()
@@ -41,7 +41,7 @@ def hangman():
 
         print('You have ', live, 'live satges left and you have used these letters: ', ' '.join(used_letters))
 
-        word_list = [letter if letter in used_letters else '-' for letter in word]
+        word_list = [letter if letter in used_letters else '_' for letter in word]
         print(live_stages_dict[live])
         print('current Word:' ,' '.join(word_list))
         user_letter = input("Guess a letter: ").upper()
