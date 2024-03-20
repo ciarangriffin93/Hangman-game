@@ -30,7 +30,7 @@ def hangman():
 
         print('You have ', live, 'live satges left and you have used these letters: ', ' '.join(used_letters))
 
-        word_list = [letter if letter in used_letters else '-' for letter in words]
+        word_list = [letter if letter in used_letters else '-' for letter in word]
         print(live_stages_dict[live])
         print('current Word:' ,' '.join(word_list))
         user_letter = input("Guess a letter: ").upper()
@@ -38,14 +38,14 @@ def hangman():
             used_letters.add(user_letter)
 
             if user_letter in word_letters:
-                used_letters.remove(user_letter)
+                word_letters.remove(user_letter)
                 print(' ')
 
             else:
                 live = live -1 
                 print('\n Your letter', user_letter, 'is not the word')
 
-        elif used_letter in used_letters:
+        elif user_letter in used_letters:
             print('\n You have already used the letter. Guess another letter.') 
 
         else:
