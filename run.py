@@ -58,8 +58,10 @@ def hangman():
     else: # end game as user guessed letters
         print('Well Done!! you guessed the word', word)
 
-if __name__ == '__main__':
+def main():
     hangman() 
+
+main()    
 
 
                        
