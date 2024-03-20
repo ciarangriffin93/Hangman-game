@@ -5,6 +5,15 @@ import string
 
 def output_area():
     """
+    Remember to read the rules.
+    """
+    print("=======================================================")
+    print("1. Goal: guess the word and save the man!")
+    print("2. Everytime you can say only a letter")
+    print("3. Make 7 wrong guesses and you lose. The man will die!!!")
+    print("=======================================================")
+
+    """
     The following text: output user sees messages.
     """
     get_name = input('Welcome to Hangman Game! Enter your name: ')
