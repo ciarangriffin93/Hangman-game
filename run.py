@@ -1,5 +1,5 @@
 import random 
-from words import words_list
+from words import words
 from hangman_stages import hangman_stages_num
 import string 
 
@@ -19,9 +19,9 @@ def hangman():
     Function that plays the game
     """
 
-    word =get_valid_words(words_list)
-    word_letter =set(words)
-    aplphabet =set(string.ascii_uppercase)
+    word = get_valid_words(words)
+    word_letter = set(words)
+    aplphabet = set(string.ascii_uppercase)
     used_letter =set()
 
     hangnan_stages = 7

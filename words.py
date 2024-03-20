@@ -1,4 +1,4 @@
-words_list = [
+words = [
     'ciaran',
     'alan',
     'david',
