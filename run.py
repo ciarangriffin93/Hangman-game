@@ -94,6 +94,7 @@ def play_game():
 def main():
     output_area()
     hangman()
+    play_game()
 
 main()    
 
