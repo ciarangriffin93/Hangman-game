@@ -9,7 +9,7 @@ def output_area():
     """
     print("=======================================================")
     print("1. Goal: guess the word and save the man!")
-    print("2. Everytime you can say only a letter")
+    print("2. Everytime you can say only a letter.")
     print("3. Make 7 wrong guesses and you lose. The man will die!!!")
     print("=======================================================")
 
@@ -48,7 +48,7 @@ def hangman():
 
     while len(word_letters) > 0 and live > 0:
 
-        print('You have ', live, 'live satges left and you have used these letters: ', ' '.join(used_letters))
+        print('You have',live, 'live satges left and you have used these letters. Let start playing!! ', ' '.join(used_letters))
 
         word_list = [letter if letter in used_letters else '_' for letter in word]
         print(live_stages_dict[live])
