@@ -11,7 +11,7 @@ def output_area():
     print("1. Goal: guess the word and save the man!")
     print("2. Everytime you can say only a letter.")
     print("3. If you make incorrect guesses, you will lose. The man will die!!!")
-    print("\033[1;33;40m========================================================")
+    print("\033[1;33;40m========================================================\033[0m")
 
     """
     The following text: output user sees messages.
@@ -22,7 +22,7 @@ def output_area():
         print('please enter a valid name')
         get_name = input('Enter your name:')
 
-    print('\n Hi',get_name)
+    print('\n HELLO!!',get_name)
 
 def get_valid_word(words):
     """
