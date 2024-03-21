@@ -10,7 +10,7 @@ def output_area():
     print("===============WELCOME TO HANGMAN GAME!!===============")
     print("1. Goal: guess the word and save the man!")
     print("2. Everytime you can say only a letter.")
-    print("3. Make 7 wrong guesses and you lose. The man will die!!!")
+    print("3. If you make incorrect guesses, you will lose. The man will die!!!")
     print("=======================================================")
 
     """
@@ -48,7 +48,8 @@ def hangman():
 
     while len(word_letters) > 0 and live > 0:
 
-        print('You have',live, 'live satges left and you have used these letters. Let start playing!! ', ' '.join(used_letters))
+        print('You have',live, 'live stages left and you have used these letters.')
+        print('Let start playing!! ', ' '.join(used_letters))
 
         word_list = [letter if letter in used_letters else '_' for letter in word]
         print(live_stages_dict[live])
@@ -76,14 +77,14 @@ def hangman():
         print('You died, sorry! The word was', word)
 
     else: # end game as user guessed letters
-        print('Well Done!! you guessed the word', word)
+        print('Well done! You guessed the word', word)
 
 def play_game():
     """
     Create a function that provides the option to play the game again." 
     """
     start_over = input("Would you like to play again? enter y for yes or "
-                       "If the player doesn't want to play, they can use for exit() ")
+                       "If you don't want to play, You can use exit for exit ")
 
     if start_over.lower() == "y":
         main()
