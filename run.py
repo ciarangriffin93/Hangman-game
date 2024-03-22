@@ -14,11 +14,17 @@ def output_area():
     """
     Remember to read the rules.
     """
-    print("\033[1;33;40m===============\033[1;34;40m WELCOME TO HANGMAN GAME!!\033[0m\033[1;33;40m===============\033[0m")
+    print(
+        "\033[1;33;40m===============\033[1;34;40m WELCOME TO HANGMAN GAME!!"
+        "\033[0m\033[1;33;40m===============\033[0m"
+)
     print("1. Goal: guess the word and save the man!")
     print("2. Everytime you can say only a letter.")
     print("3. If you make incorrect guesses, you will lose. The man will die!!!")
-    print("\033[1;33;40m========================================================\033[0m")
+    print(
+        "\033[1;33;40m====================="
+        "===================================\033[0m"
+)
 
     """
     The following text: output user sees messages.
