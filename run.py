@@ -56,6 +56,7 @@ def hangman():
     live = 7
 
     while len(word_letters) > 0 and live > 0:
+        clear()
 
         print('You have',live, 'live stages left and you have used these letters.')
         print('Let start playing!! ', ' '.join(used_letters))
