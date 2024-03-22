@@ -1,8 +1,14 @@
+import os
 import random 
 from words import words
 from hangman_stages import live_stages_dict
 import string
 
+def clear():
+    """
+    Clear function to clean-up the terminal so things don't get messy.
+    """
+    os.system("cls" if os.name == "nt" else "clear")
 
 def output_area():
     """
@@ -19,6 +25,7 @@ def output_area():
     """
     while True:
         get_name = input('Enter your name:')
+        clear()
 
         if get_name.isalpha():
             print(f' HELLO!! {get_name}')
@@ -87,6 +94,7 @@ def play_game():
     """
     start_over = input("Would you like to play again? enter y for yes or "
                        "If you don't want to play, You can use exit for exit ")
+    clear()                   
 
     if start_over.lower() == "y":
         main()
@@ -95,6 +103,7 @@ def play_game():
         exit()            
 
 def main():
+    clear()
     output_area()
     hangman()
     play_game()
