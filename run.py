@@ -1,7 +1,8 @@
 import random 
 from words import words
 from hangman_stages import live_stages_dict
-import string 
+import string
+
 
 def output_area():
     """
@@ -16,13 +17,14 @@ def output_area():
     """
     The following text: output user sees messages.
     """
-    get_name = input('Enter your name:')
-
-    while get_name == "":
-        print('please enter a valid name')
+    while True:
         get_name = input('Enter your name:')
 
-    print('\n HELLO!!',get_name)
+        if get_name.isalpha():
+            print(f' HELLO!! {get_name}')
+            break
+        else:
+            print(f'{get_name} is invalid. Please enter a valid name')
 
 def get_valid_word(words):
     """
