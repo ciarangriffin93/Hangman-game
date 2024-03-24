@@ -1,8 +1,11 @@
 import os
 import random 
+import colorama 
+from colorama import Fore, Back, Style
 from words import words
 from hangman_stages import live_stages_dict
 import string
+colorama.init(autoreset=True)
 
 def clear():
     """
@@ -90,10 +93,11 @@ def hangman():
 
     if live == 0: 
         print(live_stages_dict[live])
-        print('You died, sorry! The word was', word)
+        print(Fore.RED + 'You died, sorry! The word was', word)
+        
 
     else: # end game as user guessed letters
-        print('Well done! You guessed the word', word)
+        print(Fore.GREEN + 'Well done! You guessed the word', word)
 
 def play_game():
     """
