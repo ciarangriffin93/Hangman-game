@@ -20,15 +20,16 @@ def output_area():
     """
     print(art_text.welcome)
     print(
-        "\033[1;33;40m===============\033[1;34;40m WELCOME TO HANGMAN GAME!!"
-        "\033[0m\033[1;33;40m===============\033[0m"
+        Fore.YELLOW + "===============HANGMAN GAME RULE!!==============="
 )
     print("1. Goal: guess the word and save the man!")
     print("2. Everytime you can say only a letter.")
-    print("3. If you make incorrect guesses, you will lose. The man will die!!!")
     print(
-        "\033[1;33;40m====================="
-        "===================================\033[0m"
+        "3. If you make incorrect guesses, you will lose."
+    "The man will die!!!"
+)
+    print(
+        Fore.YELLOW + "================================================="
 )
 
     """
@@ -39,7 +40,7 @@ def output_area():
         clear()
 
         if get_name.isalpha():
-            print(f' HELLO!! {get_name}')
+            print(f"{Fore.YELLOW} HELLO!! {get_name}")
             break
         else:
             print(f'{get_name} is invalid. Please enter a valid name')
