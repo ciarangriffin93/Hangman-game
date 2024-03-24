@@ -62,7 +62,6 @@ def hangman():
     live = 7
 
     while len(word_letters) > 0 and live > 0:
-        clear()
 
         print('You have',live, 'live stages left and you have used these letters.')
         print('Let start playing!! ', ' '.join(used_letters))
@@ -86,7 +85,8 @@ def hangman():
             print('\n You have already used the letter. Guess another letter.') 
 
         else:
-            print('\n That is not a valid letter') 
+            print('\n That is not a valid letter')
+
 
     if live == 0: 
         print(live_stages_dict[live])
@@ -100,8 +100,7 @@ def play_game():
     Create a function that provides the option to play the game again." 
     """
     start_over = input("Would you like to play again? enter y for yes or "
-                       "If you don't want to play, You can use exit for exit ")
-    clear()                   
+                       "If you don't want to play, You can use exit for exit ")                  
 
     if start_over.lower() == "y":
         main()
