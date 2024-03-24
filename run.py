@@ -1,5 +1,6 @@
 import os
-import random 
+import random
+import art_text
 import colorama 
 from colorama import Fore, Back, Style
 from words import words
@@ -17,6 +18,7 @@ def output_area():
     """
     Remember to read the rules.
     """
+    print(art_text.welcome)
     print(
         "\033[1;33;40m===============\033[1;34;40m WELCOME TO HANGMAN GAME!!"
         "\033[0m\033[1;33;40m===============\033[0m"
