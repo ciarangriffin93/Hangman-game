@@ -108,13 +108,15 @@ def play_game():
     Create a function that provides the option to play the game again." 
     """
     start_over = input("Would you like to play again? enter y for yes or "
-                       "If you don't want to play, You can use exit for exit ")                  
+    "If you don't want to play, enter n for no ")
+    clear()                  
 
     if start_over.lower() == "y":
         main()
 
     else:
-        exit()            
+        print("Thank you for play") 
+        exit()           
 
 def main():
     clear()
