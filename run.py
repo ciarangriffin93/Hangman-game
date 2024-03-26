@@ -77,7 +77,7 @@ def hangman():
         word_list = [
             letter if letter in used_letters else '_' for letter in word]
         print(Fore.YELLOW + live_stages_dict[live])
-        print('current Word:', ''.join(word_list))
+        print('current Word:', ' '.join(word_list))
         user_letter = input("Guess a letter: ").upper()
         if user_letter in aplphabet - used_letters:
             used_letters.add(user_letter)
