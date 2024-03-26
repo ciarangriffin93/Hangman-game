@@ -110,7 +110,8 @@ def play_game():
     """
     start_over = input(
         "Would you like to play again? enter y for yes or "
-        "If you don't want to play, enter n for no")
+        "\nIf you don't want to play,"
+        "enter n for no")
     clear()
 
     if start_over.lower() == "y":
