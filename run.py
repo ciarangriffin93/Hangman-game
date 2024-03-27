@@ -70,9 +70,9 @@ def hangman():
 
     while len(word_letters) > 0 and live > 0:
         print(
-            "You have'live,'live stages left and"
-            "you have used these letters.")
-        print('Let start playing!! ', ''.join(used_letters))
+            'You have', live, 'lives stages left and'
+            'you have used these letters: ', ' '.join(used_letters))
+        print('Let start playing!!')
 
         word_list = [
             letter if letter in used_letters else '_' for letter in word]
