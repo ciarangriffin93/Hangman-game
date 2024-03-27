@@ -26,8 +26,8 @@ def output_area():
     print("1. Goal: guess the word and save the man!")
     print("2. Everytime you can say only a letter.")
     print(
-        "3. If you make incorrect guesses, you will lose."
-        "The man will die!!!")
+        "3. If you make incorrect guesses, you will lose,"
+        "\n           The man will die!!!")
     print(
         Fore.YELLOW + "=================================================")
 
@@ -72,7 +72,9 @@ def hangman():
         print(
             'You have', live, 'lives stages left and'
             'you have used these letters: ', ' '.join(used_letters))
-        print('Let start playing!!')
+        print(
+            'Let start playing!!'
+            '\n     Enjoy!!')
 
         word_list = [
             letter if letter in used_letters else '_' for letter in word]
