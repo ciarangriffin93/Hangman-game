@@ -120,7 +120,7 @@ def play_game():
         main()
 
     else:
-        print("Thank you for play!")
+        print("Thank you for play!\nHope you enjoyed it!!")
         print(art_text.bye)
         exit()
 
