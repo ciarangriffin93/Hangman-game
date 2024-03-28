@@ -101,3 +101,5 @@ languages used:
 * [Fancy-text-pro](https://www.fancytextpro.com/): Used to create art with text.
 
 * [Canva](https://www.canva.com/online-whiteboard/flowcharts/): Used create a flowchart for project preparation.
+
+* [CI-Python-Linter](https://pep8ci.herokuapp.com/): Used display warnings and errors to assess code quality.
