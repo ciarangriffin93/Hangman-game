@@ -70,7 +70,7 @@ def hangman():
 
     while len(word_letters) > 0 and live > 0:
         print(
-            'You have', live, 'lives stages left and'
+            'You have', live, 'lives stages left and '
             'you have used these letters: ', ' '.join(used_letters))
         print(
             'Let start playing!!'
@@ -112,8 +112,8 @@ def play_game():
     """
     start_over = input(
         "Would you like to play again? enter y for yes or "
-        "\nIf you don't want to play,"
-        "enter n for no")
+        "\nIf you don't want to play, "
+        "enter n for no ")
     clear()
 
     if start_over.lower() == "y":
