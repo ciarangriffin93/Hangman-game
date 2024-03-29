@@ -102,15 +102,17 @@ def hangman():
     if live == 0:
         print(live_stages_dict[live])
         print(Fore.RED + 'You died, sorry! The word was', word)
+        print(art_text.died)
     else:
-        print(Fore.GREEN + 'Well done! You guessed the word', word)
+        print(Fore.GREEN + 'Well done! You guessed the word was', word)
+        print(art_text.win)
 
 
 def play_game():
     """
     Create a function that provides the option to play the game again.
     """
-    start_over = input("\nWould you like to play again? (Y/N): ").upper()
+    start_over = input("\nWould you like to play again? (Y/N): ")
     clear()
 
     if start_over.lower() == "y":
