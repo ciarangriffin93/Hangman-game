@@ -70,8 +70,8 @@ def hangman():
 
     while len(word_letters) > 0 and live > 0:
         print(
-            'You have', live, 'lives stages left and '
-            'you have used these letters: ', ' '.join(used_letters))
+            'You have', live, 'lives stages left, '
+            '\nYou have used these 27 European countries.', ' '.join(used_letters))
         print(
             'Let start playing!!'
             '\n     Enjoy!!')
