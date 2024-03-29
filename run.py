@@ -22,7 +22,7 @@ def output_area():
     """
     print(art_text.welcome)
     print(
-        Fore.YELLOW + "===============HANGMAN GAME RULE!!===============")
+        Fore.YELLOW + "=================== RULE!! ======================")
     print("1. Goal: guess the word and save the man!")
     print("2. Everytime you can say only a letter.")
     print(
@@ -35,11 +35,11 @@ def output_area():
     The following text: output user sees messages.
     """
     while True:
-        get_name = input('Enter your name:')
+        get_name = input('Enter your name: ')
         clear()
 
         if get_name.isalpha():
-            print(f"{Fore.YELLOW} HELLO!! {get_name}")
+            print(f"{Fore.YELLOW}HELLO!! {get_name}")
             break
         else:
             print(f'{get_name} is invalid. Please enter a valid name')
@@ -71,7 +71,8 @@ def hangman():
     while len(word_letters) > 0 and live > 0:
         print(
             'You have', live, 'lives stages left, '
-            '\nYou have used these 27 European countries.', ' '.join(used_letters))
+            '\nYou have used these'
+            '27 European countries.', ' '.join(used_letters))
         print(
             'Let start playing!!'
             '\n     Enjoy!!')
