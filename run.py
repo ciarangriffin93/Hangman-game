@@ -66,7 +66,7 @@ def hangman():
     aplphabet = set(string.ascii_uppercase)
     used_letters = set()
 
-    live = 7
+    live = 8
 
     while len(word_letters) > 0 and live > 0:
         print(
@@ -74,7 +74,7 @@ def hangman():
             '\nYou have used these '
             '27 European countries.', ' '.join(used_letters))
         print(
-            "Let's play Hangman!!"
+            "\nLet's play Hangman!!"
             '\n     Enjoy!!')
 
         word_list = [
