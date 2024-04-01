@@ -2,6 +2,14 @@
 
 The Hangman game is a Python terminal game deployed to Heroku. Players attempt to guess a random word. Incorrect guesses result in a man being drawn piece by piece. If the word is guessed before the entire figure is displayed, the players win otherwise they lose.
 
+Click [here](https://hangman-game-30a164540c0f.herokuapp.com/) to see the live website.
+
+![Image of Dvice responsivneness](/documentation/images/screenshot-game.png)
+
+## How to play
+
+This game is based on the hangman game:
+
 ## Flowchart
 
 ![Canva](/documentation/images/canva)
