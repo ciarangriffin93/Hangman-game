@@ -18,6 +18,60 @@ This game is based on the hangman game:
 
 * If the letter is not in the word, the hangman will draw one body part for each incorrect guess: head, body, arm, and leg.
 
+## Features
+
+* The game show.
+  * Welcome to the Hangman game!
+  * The player has read the game rules.
+
+![Image of game show](/documentation/images/game-rule.png)
+
+* Name request input.
+  * When the player enters their name, they will receive a welcome message.
+
+![Image of name request](/documentation/images/enter-name.png)
+
+* Show the instructions.
+  * The game starts by showing live stages and a word, and then it starts the game.
+
+![Image of instructions](/documentation/images/instructions.png)
+
+* Guess a letter.
+  * Players can press any letter of the alphabet on their keyboard to start the game.
+
+![Image of guess a letter](/documentation/images/guess-letter.png)
+
+* Guess correct. 
+  * If the guessed letter is correct, a message is sent confirming its placement in the word.
+
+![Image of correct](/documentation/images/guess-correct.png)
+
+* Guess incorrect.
+  * If the guessed letter is incorrect, players will receive a message indicating that the letter is not in the word.
+
+![Image of incorrect](/documentation/images/guess-incorrect.png)
+
+* Game win.
+  * Players win the game by correctly guessing all the letters in the word. Once they do this, they receive a message informing them that they have guessed the word and won the game.
+
+![Image of game win](/documentation/images/win-game.png)
+
+* Game lose.
+  * Players lose the game when they exhaust all incorrect guesses and the full graphic is displayed. In this scenario, they receive a message stating that they have lost.
+
+![Image of game lose](/documentation/images/lose-game.png)
+
+* Play again.
+   * If the player want to play "start_over == 'y'"
+	* If the player chooses not to "play start_over == 'n'"
+
+![Image of game again](/documentation/images/play-again.png)
+
+* Game end
+  * If they don't want to play again, a "Thank you for play and hope you enjoyed it. BYE!" message will be displayed.
+
+![Image of game end](/documentation/images/game-end.png)	
+
 ## Flowchart
 
 ![Canva](/documentation/images/canva)
