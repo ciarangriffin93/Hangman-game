@@ -93,9 +93,11 @@ def hangman():
                 print('\n Your letter', user_letter, 'is not the word')
 
         elif user_letter in used_letters:
+            clear()
             print('\n You have already used the letter. Guess another letter.')
 
         else:
+            clear()
             print('\n That is not a valid letter')
 
     if live == 0:
