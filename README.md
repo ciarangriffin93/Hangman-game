@@ -10,6 +10,14 @@ Click [here](https://hangman-game-30a164540c0f.herokuapp.com/) to see the live w
 
 This game is based on the hangman game:
 
+* The hangman will select a word related to European countries.
+
+* The hangman draws a line for each letter in the word.
+
+* The guesser will guess one letter at a time. If the letter is in the word, the hangman will fill in the blanks with the correct guesses.
+
+* If the letter is not in the word, the hangman will draw one body part for each incorrect guess: head, body, arm, and leg.
+
 ## Flowchart
 
 ![Canva](/documentation/images/canva)
