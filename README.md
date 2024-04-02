@@ -76,7 +76,7 @@ This game is based on the hangman game:
 
 * I used the CI Python linter on my code, and it raised a few issues, which are displayed in the image below.
 
-![Image of test issues](/documentation/images/test-issues.png)
+![Image of test issues](/documentation/testing/test-issues.png)
 
 * Line too long.
   * This error was raised as a result of the line of code being too long.
@@ -89,13 +89,13 @@ This game is based on the hangman game:
 
 * I tested the run.py file, and there were no errors or warnings.
 
-![Image of no errors](/documentation/images/no-errors.png)
+![Image of no errors](/documentation/testing/no-errors.png)
 
 
 
 ## Flowchart
 
-![Canva](/documentation/images/canva)
+![Canva](/documentation/flowchart/canva)
 
 ## Deployment
 
