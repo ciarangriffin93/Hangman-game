@@ -67,10 +67,31 @@ This game is based on the hangman game:
 
 ![Image of game again](/documentation/images/play-again.png)
 
-* Game end
+* Game end.
   * If they don't want to play again, a "Thank you for play and hope you enjoyed it. BYE!" message will be displayed.
 
-![Image of game end](/documentation/images/game-end.png)	
+![Image of game end](/documentation/images/game-end.png)
+
+## Testing
+
+* I used the CI Python linter on my code, and it raised a few issues, which are displayed in the image below.
+
+![Image of test issues](/documentation/images/test-issues.png)
+
+* Line too long.
+  * This error was raised as a result of the line of code being too long.
+
+* Trailing whitespace.
+  * The issue was resolved by removing the white space. This is self-explanatory.
+
+* Blank line contains white space
+  * The self-explanatory warning was resolved by removing the white spaces on a blank line.
+
+* I tested the run.py file, and there were no errors or warnings.
+
+![Image of no errors](/documentation/images/no-errors.png)
+
+
 
 ## Flowchart
 
