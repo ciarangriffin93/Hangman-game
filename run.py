@@ -40,6 +40,7 @@ def output_area():
 
         if get_name.isalpha():
             print(f"{Fore.YELLOW}HELLO!! {get_name}")
+            print("\nLet's play Hangman!!\n      Enjoy!!")
             break
         else:
             print(f'{get_name} is invalid. Please enter a valid name')
@@ -73,9 +74,6 @@ def hangman():
             '\nYou have', live, 'lives stages left, '
             '\nYou have used these '
             '27 European countries.', ' '.join(used_letters))
-        print(
-            "\nLet's play Hangman!!"
-            '\n     Enjoy!!')
 
         word_list = [
             letter if letter in used_letters else '_' for letter in word]
