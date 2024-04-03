@@ -4,7 +4,7 @@ The Hangman game is a Python terminal game deployed to Heroku. Players attempt t
 
 Click [here](https://hangman-game-30a164540c0f.herokuapp.com/) to see the live website.
 
-![Image of Dvice responsivneness](/documentation/images/screenshot-game.png)
+![Image of Dvice responsivneness](/documentation/images/herokuapp.png)
 
 ## How to play
 
@@ -34,7 +34,7 @@ This game is based on the hangman game:
 * Show the instructions.
   * The game starts by showing live stages and a word, and then it starts the game.
 
-![Image of instructions](/documentation/images/instructions.png)
+![Image of instructions](/documentation/images/instructions%20.png)
 
 * Guess a letter.
   * Players can press any letter of the alphabet on their keyboard to start the game.
@@ -194,3 +194,21 @@ languages used:
 * [Canva](https://www.canva.com/online-whiteboard/flowcharts/): Used create a flowchart for project preparation.
 
 * [CI-Python-Linter](https://pep8ci.herokuapp.com/): Used display warnings and errors to assess code quality.
+
+## Credit
+
+#### Content:
+
+* [W3schools](https://www.w3schools.com/python/) This site was created using information from Code Institute and W3Schools.
+
+* [Youtube](https://www.youtube.com/watch?v=m4nEnsavl6w&t=466s) This is meant to be used for learning how to create a quiz in python.
+
+## Acknowledgements
+
+* I would like to thank to my mentor, Tim Nelson, for his help and unwavering support.
+
+* I would like to thank to my tutor at Code Institute for their help and unwavering support.
+
+* I would like to thank to my family for their patience, support, and understanding.
+
+* I would like to Code Institute's Slack community,and Deaf group for their support.
