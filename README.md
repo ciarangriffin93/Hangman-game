@@ -91,7 +91,25 @@ This game is based on the hangman game:
 
 ![Image of no errors](/documentation/testing/no-errors.png)
 
+### Manual testing
 
+* Manually tested the game the following:
+
+| Action        | Expected Behaviour  | Result | 
+| ------------- | ------------- | ------------- |
+| Player enters name  | Will prompt the player to word to guess | pass |
+| Enter a number, space and hit Enter  | Display Invalid input: Please enter letters a valid your name | pass |
+| Enter two than one letter and hit Enter | Display Invalid input: Please enter a single letter.  | Pass |
+| Enter Number and hit Enter | Display Invalid input: Please enter using a letter.  | Pass |
+| Enter a correct letter and hit Enter | Will display letter is correct word | pass |
+| Enter an incorrect letter and hit Enter| Will display letter is not the word | Pass |
+| Enter a letter that has been previously guessed and hit Enter | Will display You have already used the letter. | Pass |
+| Guess the word before attempts are finished| Will display Well done! You guessed the word was | Pass |
+| Attempts finished | Will display You died, sorry! The word was | Pass |
+| Letter is incorrect  | incorrect guesses left  decrement by 1 | pass | 
+| Letter is incorrect  | A piece of the graphic is show | pass | 
+| Press ‘Y’ to play again|  The game will replay  | Pass | 
+| Press ’N’ to finish the game| Will display Thank you for play! Hope you enjoyed it!! Bye! End of game | Pass | 
 
 ## Flowchart
 
