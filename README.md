@@ -31,6 +31,12 @@ This game is based on the hangman game:
 
 ![Image of name request](/documentation/images/enter-name.png)
 
+* Name invalid
+  * Enter a Number and space is not a valid name. 
+
+  ![Space-Invalid](/documentation/images/space-invalid.png)
+  ![Number-Invalid](/documentation/images/numbers-invalid.png)
+
 * Show the instructions.
   * The game starts by showing live stages and a word, and then it starts the game.
 
@@ -50,6 +56,11 @@ This game is based on the hangman game:
   * If the guessed letter is incorrect, players will receive a message indicating that the letter is not in the word.
 
 ![Image of incorrect](/documentation/images/guess-incorrect.png)
+
+* Letter and number invalid 
+  * Two than one letter or number is not vnvalid
+
+![letters-number-invalid](/documentation/images/two-letter-invalid.png)
 
 * Game win.
   * Players win the game by correctly guessing all the letters in the word. Once they do this, they receive a message informing them that they have guessed the word and won the game.
@@ -98,18 +109,18 @@ This game is based on the hangman game:
 | Action        | Expected Behaviour  | Result | 
 | ------------- | ------------- | ------------- |
 | Player enters name | Will prompt the player to word to guess. | pass |
-| Enter a number, space and hit Enter  | Display Invalid input: Please enter letters a valid your name. | pass |
-| Enter two than one letter and hit Enter | Display Invalid input: Please enter a single letter.  | Pass |
-| Enter Number and hit Enter | Display Invalid input: Please enter using a letter. | Pass |
-| Enter a correct letter and hit Enter | Will display letter is correct word. | pass |
-| Enter an incorrect letter and hit Enter| Will display letter is not the word. | Pass |
-| Enter a letter that has been previously guessed and hit Enter | Will display You have already used the letter. | Pass |
+| Enter a number, space and hit enter  | Display Invalid input: Please enter letters a valid your name. | pass |
+| Enter two than one letter and hit enter | Display Invalid input: Please enter a single letter.  | Pass |
+| Enter Number and hit enter | Display Invalid input: Please enter using a letter. | Pass |
+| Enter a correct letter and hit enter | Will display letter is correct word. | pass |
+| Enter an incorrect letter and hit enter| Will display letter is not the word. | Pass |
+| Enter a letter that has been previously guessed and hit enter | Will display You have already used the letter. | Pass |
 | Guess the word before attempts are finished| Will display Well done! You guessed the word was | Pass |
 | Attempts finished | Will display You died, sorry! The word was. | Pass |
 | Letter is incorrect | incorrect guesses left  decrement by 1 | pass | 
 | Letter is incorrect | A piece of the graphic is show. | pass | 
-| Press ‘Y’ to play again|  The game will replay.  | Pass | 
-| Press ’N’ to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass | 
+| Press ‘Y’ to play again|  The game will replay. | Pass | 
+| Press ’N’ to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
 
 ## Flowchart
 
