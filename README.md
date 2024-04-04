@@ -34,8 +34,8 @@ This game is based on the hangman game:
 * Name invalid
   * Enter a Number and space is not a valid name. 
 
-  ![Space-Invalid](/documentation/images/space-invalid.png)
-  ![Number-Invalid](/documentation/images/numbers-invalid.png)
+![Space-Invalid](/documentation/images/space-invalid.png)
+![Number-Invalid](/documentation/images/numbers-invalid.png)
 
 * Show the instructions.
   * The game starts by showing live stages and a word, and then it starts the game.
@@ -121,6 +121,21 @@ This game is based on the hangman game:
 | Letter is incorrect | A piece of the graphic is show. | pass | 
 | Press ‘Y’ to play again|  The game will replay. | Pass | 
 | Press ’N’ to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
+
+#### Unfixed Bugs
+
+* The only unfixed issue is the warning that came up in CI Python linter on my code, and it raised a few issues, which are displayed in the image below.
+
+![Image of test issues](/documentation/testing/test-issues.png)
+
+* Line too long.
+  * Fix this error was raised as a result of the line of code being too long.
+
+* Trailing whitespace.
+  * Fix the issue was resolved by removing the white space. This is self-explanatory.
+
+* Blank line contains white space.
+  * Fix the self-explanatory warning was resolved by removing the white spaces on a blank line.
 
 ## Flowchart
 
