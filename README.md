@@ -113,6 +113,8 @@ This game is based on the hangman game:
 
 ## Flowchart
 
+I used Canva to plan and map out the core processes.
+
 ![Canva](/documentation/flowchart/canva)
 
 ## Deployment
@@ -244,6 +246,10 @@ You can fork this repository by using the following steps:
 * [Colorama-youtube](https://www.youtube.com/watch?v=u51Zjlnui4Y): This is used to how do import Colorama into Python.
 
 * [W3schools](https://www.w3schools.com/python/): This site was created using information W3Schools.
+
+* [OS](https://docs.python.org/3/library/os.html): This is how to use the OS module to clear the terminal.
+
+* [Code-Institute](https://www.youtube.com/watch?v=WTll5p4N7hE): This is from code institute to learn how to create love sandwiches project. 
 
 
 
