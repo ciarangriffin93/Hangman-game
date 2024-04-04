@@ -23,11 +23,13 @@ def output_area():
     print(art_text.welcome)
     print(
         Fore.YELLOW + "=================== RULE!! ======================")
-    print("1. Goal: guess the word and save the man!")
+    print("1. Guess the word and save the man!!")
     print("2. Everytime you can say only a letter.")
+    print("3. Number or two than one letter is not valid letter.")
     print(
-        "3. If you make incorrect guesses, you will lose,"
+        "4. If you make incorrect guesses, you will lose,"
         "\n           The man will die!!!")
+    print("5. Please enter letters a valid your name")
     print(
         Fore.YELLOW + "=================================================")
 
@@ -43,8 +45,8 @@ def output_area():
             print("\nLet's play Hangman!!\n      Enjoy!!")
             break
         else:
-            print(f'{get_name}{Fore.RED}is invalid. Please enter a valid name')
-
+            print(
+                f'{get_name}{Fore.RED} is invalid. Please enter a valid name')
 
 def get_valid_word(words):
     """
