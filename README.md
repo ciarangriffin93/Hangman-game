@@ -97,19 +97,19 @@ This game is based on the hangman game:
 
 | Action        | Expected Behaviour  | Result | 
 | ------------- | ------------- | ------------- |
-| Player enters name  | Will prompt the player to word to guess | pass |
-| Enter a number, space and hit Enter  | Display Invalid input: Please enter letters a valid your name | pass |
+| Player enters name | Will prompt the player to word to guess. | pass |
+| Enter a number, space and hit Enter  | Display Invalid input: Please enter letters a valid your name. | pass |
 | Enter two than one letter and hit Enter | Display Invalid input: Please enter a single letter.  | Pass |
-| Enter Number and hit Enter | Display Invalid input: Please enter using a letter.  | Pass |
-| Enter a correct letter and hit Enter | Will display letter is correct word | pass |
-| Enter an incorrect letter and hit Enter| Will display letter is not the word | Pass |
+| Enter Number and hit Enter | Display Invalid input: Please enter using a letter. | Pass |
+| Enter a correct letter and hit Enter | Will display letter is correct word. | pass |
+| Enter an incorrect letter and hit Enter| Will display letter is not the word. | Pass |
 | Enter a letter that has been previously guessed and hit Enter | Will display You have already used the letter. | Pass |
 | Guess the word before attempts are finished| Will display Well done! You guessed the word was | Pass |
-| Attempts finished | Will display You died, sorry! The word was | Pass |
-| Letter is incorrect  | incorrect guesses left  decrement by 1 | pass | 
-| Letter is incorrect  | A piece of the graphic is show | pass | 
-| Press ‘Y’ to play again|  The game will replay  | Pass | 
-| Press ’N’ to finish the game| Will display Thank you for play! Hope you enjoyed it!! Bye! End of game | Pass | 
+| Attempts finished | Will display You died, sorry! The word was. | Pass |
+| Letter is incorrect | incorrect guesses left  decrement by 1 | pass | 
+| Letter is incorrect | A piece of the graphic is show. | pass | 
+| Press ‘Y’ to play again|  The game will replay.  | Pass | 
+| Press ’N’ to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass | 
 
 ## Flowchart
 
@@ -193,7 +193,7 @@ You can fork this repository by using the following steps:
 
 ## Technologies Used
 
-languages used:
+#### languages used:
 
 * [Python](https://www.python.org/): Used to provide functionality to the site.
 
@@ -205,21 +205,47 @@ languages used:
 
 * [Heroku](https://dashboard.heroku.com/apps): Deploy a live version of the terminal.
 
-* [OS](https://docs.python.org/3/library/os.html): Used to clear the terminal.
-
 * [Fancy-text-pro](https://www.fancytextpro.com/): Used to create art with text.
 
 * [Canva](https://www.canva.com/online-whiteboard/flowcharts/): Used create a flowchart for project preparation.
 
 * [CI-Python-Linter](https://pep8ci.herokuapp.com/): Used display warnings and errors to assess code quality.
 
-## Credit
+#### Python Packages Used:
 
-#### Content:
+* [Colorama](https://pypi.org/project/colorama/): Used to add color for visual feedback.
 
-* [W3schools](https://www.w3schools.com/python/) This site was created using information from Code Institute and W3Schools.
+* [Import os](https://stackoverflow.com/questions/2084508/clear-terminal-in-python): Used to clear function for keeping the terminal clean.
 
-* [Youtube](https://www.youtube.com/watch?v=m4nEnsavl6w&t=466s) This is meant to be used for learning how to create a quiz in python.
+#### Tools:
+
+* Use the correct template from CI:
+  * https://github.com/Code-Institute-Org/p3-template
+
+* Optionally install these extensions:
+  * flake8 (basic linter - validate your code in the problems tab)
+
+  * autopep8 (basic formatter)
+
+  * pylint (only for more advanced/complex suggestions)
+
+* Validate by copy/pasting here:
+  * https://pep8ci.herokuapp.com/#
+
+* Documentation for validation here:
+  * https://pep8.readthedocs.io/en/release-1.7.x/intro.html
+
+## Credits
+
+#### content:
+
+* [Youtube](https://www.youtube.com/watch?v=m4nEnsavl6w&t=466s): This is used for learning how to create a hangman game in Python.
+
+* [Colorama-youtube](https://www.youtube.com/watch?v=u51Zjlnui4Y): This is used to how do import Colorama into Python.
+
+* [W3schools](https://www.w3schools.com/python/): This site was created using information W3Schools.
+
+
 
 ## Acknowledgements
 
