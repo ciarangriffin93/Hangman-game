@@ -43,7 +43,7 @@ def output_area():
             print("\nLet's play Hangman!!\n      Enjoy!!")
             break
         else:
-            print(f'{get_name} is invalid. Please enter a valid name')
+            print(f'{get_name}{Fore.RED}is invalid. Please enter a valid name')
 
 
 def get_valid_word(words):
@@ -98,7 +98,7 @@ def hangman():
 
         else:
             clear()
-            print('\n That is not a valid letter')
+            print(Fore.RED + '\n That is not a valid letter')
 
     if live == 0:
         print(live_stages_dict[live])
@@ -120,7 +120,7 @@ def play_game():
         main()
 
     else:
-        print("Thank you for play!\nHope you enjoyed it!!")
+        print("         Thank you for play! Hope you enjoyed it!!")
         print(art_text.bye)
         exit()
 
