@@ -2,7 +2,7 @@ import os
 import random
 import art_text
 import colorama
-from colorama import Fore, Back, Style
+from colorama import Fore
 from words import words
 from hangman_stages import live_stages_dict
 import string
@@ -47,6 +47,7 @@ def output_area():
         else:
             print(
                 f'{get_name}{Fore.RED} is invalid. Please enter a valid name')
+
 
 def get_valid_word(words):
     """
@@ -115,16 +116,20 @@ def play_game():
     """
     Create a function that provides the option to play the game again.
     """
-    start_over = input("\nWould you like to play again? (Y/N): ")
-    clear()
+    while True:
+        restart = input("\nWould you like to play again? (Y/N): ").upper()
+        clear()
+        if restart == "Y":
+            main()
+            return True
 
-    if start_over.lower() == "y":
-        main()
+        if restart == "N":
+            print("         Thank you for play! Hope you enjoyed it!!")
+            print(art_text.bye)
+            return False
 
-    else:
-        print("         Thank you for play! Hope you enjoyed it!!")
-        print(art_text.bye)
-        exit()
+        else:
+            print("Invalid choice. Please enter 'Y' or 'N'\n")
 
 
 def main():
