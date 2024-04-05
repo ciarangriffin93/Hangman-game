@@ -57,7 +57,7 @@ def get_valid_word(words):
     word = random.choice(words)
     while '_' in word or ' ' in word:
         word = random.choice(words)
-    return word.upper()
+    return word.lower()
 
 
 def hangman():
@@ -67,7 +67,7 @@ def hangman():
 
     word = get_valid_word(words)
     word_letters = set(word)
-    aplphabet = set(string.ascii_uppercase)
+    aplphabet = set(string.ascii_lowercase)
     used_letters = set()
 
     live = 8
@@ -82,7 +82,7 @@ def hangman():
             letter if letter in used_letters else '_' for letter in word]
         print(Fore.YELLOW + live_stages_dict[live])
         print('current Word:', ' '.join(word_list))
-        user_letter = input("Guess a letter: ").upper()
+        user_letter = input("Guess a letter: ").lower()
         if user_letter in aplphabet - used_letters:
             used_letters.add(user_letter)
             clear()
