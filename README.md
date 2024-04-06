@@ -86,19 +86,6 @@ This game is based on the hangman game:
 
 ## Testing
 
-* I used the CI Python linter on my code, and it raised a few issues, which are displayed in the image below.
-
-![Image of test issues](/documentation/testing/test-issues.png)
-
-* Line too long.
-  * This error was raised as a result of the line of code being too long.
-
-* Trailing whitespace.
-  * The issue was resolved by removing the white space. This is self-explanatory.
-
-* Blank line contains white space
-  * The self-explanatory warning was resolved by removing the white spaces on a blank line.
-
 * I tested the run.py file, and there were no errors or warnings.
 
 ![Image of no errors](/documentation/testing/no-errors.png)
@@ -123,7 +110,7 @@ This game is based on the hangman game:
 | Press ‘Y’ to play again|  The game will replay. | Pass | 
 | Press ’N’ to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
 
-#### Unfixed Bugs
+#### fixed Bugs
 
 * The only unfixed issue is the warning that came up in CI Python linter on my code, and it raised a few issues, which are displayed in the image below.
 
@@ -137,6 +124,9 @@ This game is based on the hangman game:
 
 * Blank line contains white space.
   * Fix the self-explanatory warning was resolved by removing the white spaces on a blank line.
+
+#### Unfixed bugs
+* No unfixed bugs.
 
 ## Flowchart
 
@@ -278,11 +268,9 @@ You can fork this repository by using the following steps:
 
 * [Code-Institute](https://www.youtube.com/watch?v=WTll5p4N7hE): This is from code institute to learn how to create love sandwiches project. 
 
-
-
 ## Acknowledgements
 
-* I would like to thank to my mentor, Tim Nelson, for his help and unwavering support.
+* I would like to thank to my mentor, Tim Nelson and Rory Sheridan for his help and unwavering support.
 
 * I would like to thank to my tutor at Code Institute for their help and unwavering support.
 
