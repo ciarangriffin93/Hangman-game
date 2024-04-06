@@ -1,3 +1,7 @@
+"""
+Main file to be used.
+"""
+# Import libraries
 import os
 import random
 import art_text
@@ -18,7 +22,7 @@ def clear():
 
 def output_area():
     """
-    Remember to read the rules.
+    Print the rules of the game.
     """
     print(art_text.welcome)
     print(
@@ -34,7 +38,8 @@ def output_area():
         Fore.YELLOW + "=================================================")
 
     """
-    The following text: output user sees messages.
+    This function validates the username
+    enter by the use.
     """
     while True:
         get_name = input('Enter your name: ')
@@ -51,8 +56,8 @@ def output_area():
 
 def get_valid_word(words):
     """
-    Function that retrieves a random word from a list of
-    words stored in a data file.
+    The function that retrieves a random word from
+    words.py.
     """
     word = random.choice(words)
     while '_' in word or ' ' in word:
@@ -62,7 +67,7 @@ def get_valid_word(words):
 
 def hangman():
     """
-    Function that plays the game
+    The function that play a game of hangman
     """
 
     word = get_valid_word(words)
@@ -77,7 +82,7 @@ def hangman():
             '\nYou have', live, 'lives stages left, '
             '\nYou have used these '
             '27 European countries.', ' '.join(used_letters))
-
+        # Main game loop
         word_list = [
             letter if letter in used_letters else '_' for letter in word]
         print(Fore.YELLOW + live_stages_dict[live])
@@ -93,6 +98,7 @@ def hangman():
 
             else:
                 live = live-1
+                # Letter incorrectly
                 print('\n Your letter', user_letter, 'is not the word')
 
         elif user_letter in used_letters:
@@ -101,13 +107,16 @@ def hangman():
 
         else:
             clear()
+            # Two letters or number is not a valid
             print(Fore.RED + '\n That is not a valid letter')
 
     if live == 0:
+        # The player of defeat
         print(live_stages_dict[live])
         print(Fore.RED + 'You died, sorry! The word was', word)
         print(art_text.died)
     else:
+        # The player of victory
         print(Fore.GREEN + 'Well done! You guessed the word was', word)
         print(art_text.win)
 
@@ -115,6 +124,7 @@ def hangman():
 def play_game():
     """
     Create a function that provides the option to play the game again.
+    Ask the user if they want to play the game again.
     """
     while True:
         restart = input("\nWould you like to play again? (Y/N): ").upper()
@@ -133,6 +143,9 @@ def play_game():
 
 
 def main():
+    """
+    Run functions at the start of the program.
+    """
     output_area()
     hangman()
     play_game()

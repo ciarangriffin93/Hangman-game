@@ -35,6 +35,7 @@ This game is based on the hangman game:
   * Enter a Number and space is not a valid name. 
 
 ![Space-Invalid](/documentation/images/space-invalid.png)
+
 ![Number-Invalid](/documentation/images/numbers-invalid.png)
 
 * Show the instructions.
