@@ -266,7 +266,9 @@ You can fork this repository by using the following steps:
 
 * [OS](https://docs.python.org/3/library/os.html): This is how to use the OS module to clear the terminal.
 
-* [Code-Institute](https://www.youtube.com/watch?v=WTll5p4N7hE): This is from code institute to learn how to create love sandwiches project. 
+* [Code-Institute](https://www.youtube.com/watch?v=WTll5p4N7hE): This is from code institute to learn how to create love sandwiches project.
+
+* [Git_commit](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) I need to learn how to writing better commit messages.
 
 ## Acknowledgements
 
