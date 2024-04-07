@@ -42,7 +42,7 @@ def output_area():
     enter by the use.
     """
     while True:
-        get_name = input('Enter your name: ')
+        get_name = input('Enter your name: ')[:20]
         clear()
 
         if get_name.isalpha():
