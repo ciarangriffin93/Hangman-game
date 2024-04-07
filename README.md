@@ -107,14 +107,13 @@ This game is based on the hangman game:
 | Attempts finished | Will display You died, sorry! The word was. | Pass |
 | Letter is incorrect | incorrect guesses left  decrement by 1 | pass | 
 | Letter is incorrect | A piece of the graphic is show. | pass | 
-| Press ‘Y’ to play again|  The game will replay. | Pass | 
-| Press ’N’ to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
+| Press 'Y' to play again|  The game will replay. | Pass | 
+| Press 'N' to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
+| Press 'N' with any other key to enter | Will display Invalid choice. Please enter 'Y' or 'N | Pass |
 
-#### fixed Bugs
+#### Fixed Bugs
 
 * The only unfixed issue is the warning that came up in CI Python linter on my code, and it raised a few issues, which are displayed in the image below.
-
-![Image of test issues](/documentation/testing/test-issues.png)
 
 * Line too long.
   * Fix this error was raised as a result of the line of code being too long.
@@ -124,6 +123,17 @@ This game is based on the hangman game:
 
 * Blank line contains white space.
   * Fix the self-explanatory warning was resolved by removing the white spaces on a blank line.
+
+![Image of test issues](/documentation/testing/test-issues.png)
+
+* The problem with this code to requires the user press 'n' specifically to exit, but also allow them to exit with any other key. So I have changed the code.
+
+![Press](/documentation/testing/input-y.png)
+
+* I have fixed the code to require the user to press 'n' specifically to exit, and any other key doesn't exit the program. This make it clear to the user that 'n' is the specific key they need to press to exit, and other keys won't have the same effect. 
+
+![press](/documentation/testing/input-y:n.png)
+
 
 #### Unfixed bugs
 * No unfixed bugs.
