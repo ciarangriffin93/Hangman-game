@@ -1,8 +1,36 @@
 ## Testing
 
+### User Story Testing
+
+* User Story: As a user, I want to start a new game so that I can begin playing Hangman from scratch.
+  
+  * Test 1: I would to verify that there is a "New Game" button on the main menu.
+
+  * Test 2: I would like to check that the game interface is initialized correctly with the hangman drawing and blank spaces for the word.
+
+* User Story: As a user, I want the Hangman game to be more user-friendly.
+  
+  * Test 1: I would like to check that there are clear instructions to the user on how to play the game.
+
+  * Test2: I would like to verify that the game interface is intuitive and easy to navigate.
+
+* User Story: As a user, I want to visit the Hangman game to learn more.
+  
+  * Test 1: I would like to check that there is a "Learn More" button available on the main menu.
+
+  * Test 2: I would like to "Learn More" section provides clear and concise information that is easy for the user to understand.
+
+* User Story: As a user, I want the option to play again after completing or losing a game so that I can continue enjoying the Hangman experience.
+  
+  * Test 1: I would like to Clicking on the "Play Again" button should start a new game session with a new word.
+---
+
+### CI Python inter
 * I tested the run.py file, and there were no errors or warnings.
 
 ![Image of no errors](/documentation/testing/no-errors.png)
+
+---
 
 ### Manual testing
 
@@ -24,6 +52,7 @@
 | Press 'Y' to play again|  The game will replay. | Pass | 
 | Press 'N' to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
 | Press 'N' with any other key to enter | Will display Invalid choice. Please enter 'Y' or 'N | Pass |
+---
 
 #### Fixed Bugs
 
@@ -47,7 +76,9 @@
 * I have fixed the code to require the user to press 'n' specifically to exit, and any other key doesn't exit the program. This make it clear to the user that 'n' is the specific key they need to press to exit, and other keys won't have the same effect. 
 
 ![press](/documentation/testing/input-y:n.png)
+
 ---
+
 #### Unfixed bugs
 * No unfixed bugs.
 ---

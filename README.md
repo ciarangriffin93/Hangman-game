@@ -6,6 +6,8 @@ Click [here](https://hangman-game-30a164540c0f.herokuapp.com/) to see the live w
 
 ![Image of Dvice responsivneness](/documentation/images/herokuapp.png)
 
+---
+
 ## How to play
 
 This game is based on the hangman game:
@@ -28,8 +30,7 @@ This game is based on the hangman game:
 * As a user, I want to visit hangman game to learn more.
 
 * As a user, I want the option to play again after completing or lose a game that I can continue enjoying the Hangman experience. 
-
-
+---
 
 ## Features
 
