@@ -134,7 +134,7 @@ def play_game():
             return True
 
         if restart == "N":
-            print("         Thank you for play! Hope you enjoyed it!!")
+            print("Thank you for play! Hope you enjoyed it!!")
             print(art_text.bye)
             return False
 
