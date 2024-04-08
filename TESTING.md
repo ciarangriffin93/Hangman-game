@@ -48,22 +48,23 @@
 
 * Manually tested the game the following:
 
-| Action        | Expected Behaviour  | Result | 
-| ------------- | ------------- | ------------- |
-| Player enters name | Will prompt the player to word to guess. | pass |
-| Enter a number, space and hit enter  | Display Invalid input: Please enter letters a valid your name. | pass |
-| Enter two than one letter and hit enter | Display Invalid input: Please enter a single letter.  | Pass |
-| Enter Number and hit enter | Display Invalid input: Please enter using a letter. | Pass |
-| Enter a correct letter and hit enter | Will display letter is correct word. | pass |
-| Enter an incorrect letter and hit enter| Will display letter is not the word. | Pass |
-| Enter a letter that has been previously guessed and hit enter | Will display You have already used the letter. | Pass |
-| Guess the word before attempts are finished| Will display Well done! You guessed the word was | Pass |
-| Attempts finished | Will display You died, sorry! The word was. | Pass |
-| Letter is incorrect | incorrect guesses left  decrement by 1 | pass | 
-| Letter is incorrect | A piece of the graphic is show. | pass | 
-| Press 'Y' to play again|  The game will replay. | Pass | 
-| Press 'N' to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. | Pass |
-| Press 'N' with any other key to enter | Will display Invalid choice. Please enter 'Y' or 'N | Pass |
+| Action        | Expected Behaviour  | screenshot | Result | 
+| ------------- | ------------- | ------------- | ------------- |
+| Player enters name | Will prompt the player to word to guess. |![screenshot](/documentation/testing/enter-name.png) | pass |
+| Enter a number, space and hit enter  | Display Invalid input: Please enter letters a valid your name. |![screenshoot](/documentation/testing/enter-number.png) | pass |
+| Enter a name character | will limit the input to 20 characters |![screenshot](/documentation/testing/limit-characters.png) | pass |
+| Enter two than one letter and hit enter | Display Invalid input: Please enter a single letter.  |![screenshot](/documentation/testing/enter-two-letter.png) | Pass |
+| Enter Number and hit enter | Display Invalid input: Please enter using a letter. |![screenshot](/documentation/testing/enter-numbers.png) | Pass |
+| Enter a correct letter and hit enter | Will display letter is correct word. |![screenshot](/documentation/testing/enter-correct-letter.png) | pass |
+| Enter an incorrect letter and hit enter| Will display letter is not the word. |![screentshot](/documentation/testing/enter-incorrect-letter.png) | Pass |
+| Enter a letter that has been previously guessed and hit enter | Will display You have already used the letter. |![screenshot](/documentation/testing/enter-same-letter.png) | Pass |
+| Guess the word before attempts are finished| Will display Well done! You guessed the word was |![screenshot](/documentation/testing/guess-win.png) | Pass |
+| Attempts finished | Will display You died, sorry! The word was. | ![screenshot](/documentation/testing/attempt-finished.png) | Pass |
+| Letter is incorrect | incorrect guesses left  decrement by 1 |![screenshot](/documentation/testing/guesses-left.png) | pass | 
+| Letter is incorrect | A piece of the graphic is show. |![screenshot](/documentation/testing/graphic-show.png) | pass | 
+| Press 'Y' to play again|  The game will replay. |![screenshot](/documentation/testing/press-y-play-again.png) | Pass | 
+| Press 'N' to finish the game | Will display Thank you for play! Hope you enjoyed it!! Bye! End of game. |![screenshot](/documentation/testing/press-n-finish.png) | Pass |
+| Press 'N' with any other key to enter | Will display Invalid choice. Please enter 'Y' or 'N |![screenshot](/documentation/testing/key-enter.png) | Pass |
 ---
 
 #### Fixed Bugs
