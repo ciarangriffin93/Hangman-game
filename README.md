@@ -19,6 +19,18 @@ This game is based on the hangman game:
 * If the letter is not in the word, the hangman will draw one body part for each incorrect guess: head, body, arm, and leg.
 ---
 
+## User Stories
+
+* As a user, I want to start a new game so that I can begin playing Hangman from scratch.
+
+* As a user, I want the hangman game to be more user-friendly.
+
+* As a user, I want to visit hangman game to learn more.
+
+* As a user, I want the option to play again after completing or lose a game that I can continue enjoying the Hangman experience. 
+
+
+
 ## Features
 
 * The game show.
@@ -84,11 +96,7 @@ This game is based on the hangman game:
   * If they don't want to play again, a "Thank you for play and hope you enjoyed it. BYE!" message will be displayed.
 
 ![Image of game end](/documentation/images/game-end.png)
----
 
-## Testing
-
-* For all testing, please refer to the following [TESTING.md](/TESTING.md) file
 ---
 
 ## Future Feature
@@ -104,6 +112,11 @@ I used Canva to plan and map out the core processes.
 
 ![Canva](/documentation/flowchart/canva)
 
+---
+
+## Testing
+
+* For all testing, please refer to the following [TESTING.md](/TESTING.md) file
 ---
 
 ## Deployment
