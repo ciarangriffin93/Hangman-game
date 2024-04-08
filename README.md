@@ -95,10 +95,10 @@ This game is based on the hangman game:
 
 ![Image of game again](/documentation/images/play-again.png)
 
-* Game end.
+* End game.
   * If they don't want to play again, a "Thank you for play and hope you enjoyed it. BYE!" message will be displayed.
 
-![Image of game end](/documentation/images/game-end.png)
+![Image of game end](/documentation/images/end-game.png)
 
 ---
 
