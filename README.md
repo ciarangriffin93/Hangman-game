@@ -17,6 +17,7 @@ This game is based on the hangman game:
 * The guesser will guess one letter at a time. If the letter is in the word, the hangman will fill in the blanks with the correct guesses.
 
 * If the letter is not in the word, the hangman will draw one body part for each incorrect guess: head, body, arm, and leg.
+---
 
 ## Features
 
@@ -83,16 +84,27 @@ This game is based on the hangman game:
   * If they don't want to play again, a "Thank you for play and hope you enjoyed it. BYE!" message will be displayed.
 
 ![Image of game end](/documentation/images/game-end.png)
+---
 
-## Testing 
+## Testing
 
 * For all testing, please refer to the following [TESTING.md](/TESTING.md) file
+---
+
+## Future Feature
+
+* Implement different difficulty levels easy, medium, hard" with word lengths to cater to players of different skill levels.
+
+* Players to choose from different themes or categories for the words, such as animals, movies, history, or sports.
+---
 
 ## Flowchart
 
 I used Canva to plan and map out the core processes.
 
 ![Canva](/documentation/flowchart/canva)
+
+---
 
 ## Deployment
 
@@ -169,6 +181,7 @@ You can fork this repository by using the following steps:
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ciarangriffin93/Hangman-game)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+---
 
 ## Technologies Used
 
@@ -184,11 +197,11 @@ You can fork this repository by using the following steps:
 
 * [Heroku](https://dashboard.heroku.com/apps): Deploy a live version of the terminal.
 
-* [Fancy-text-pro](https://www.fancytextpro.com/): Used to create art with text.
+* [Fancy text pro](https://www.fancytextpro.com/): Used to create art with text.
 
 * [Canva](https://www.canva.com/online-whiteboard/flowcharts/): Used create a flowchart for project preparation.
 
-* [CI-Python-Linter](https://pep8ci.herokuapp.com/): Used display warnings and errors to assess code quality.
+* [CI Python Linter](https://pep8ci.herokuapp.com/): Used display warnings and errors to assess code quality.
 
 #### Python Packages Used:
 
@@ -213,6 +226,7 @@ You can fork this repository by using the following steps:
 
 * Documentation for validation here:
   * https://pep8.readthedocs.io/en/release-1.7.x/intro.html
+---
 
 ## Credits
 
@@ -220,15 +234,16 @@ You can fork this repository by using the following steps:
 
 * [Youtube](https://www.youtube.com/watch?v=m4nEnsavl6w&t=466s): This is used for learning how to create a hangman game in Python.
 
-* [Colorama-youtube](https://www.youtube.com/watch?v=u51Zjlnui4Y): This is used to how do import Colorama into Python.
+* [Colorama youtube](https://www.youtube.com/watch?v=u51Zjlnui4Y): This is used to how do import Colorama into Python.
 
 * [W3schools](https://www.w3schools.com/python/): This site was created using information W3Schools.
 
 * [OS](https://docs.python.org/3/library/os.html): This is how to use the OS module to clear the terminal.
 
-* [Code-Institute](https://www.youtube.com/watch?v=WTll5p4N7hE): This is from code institute to learn how to create love sandwiches project.
+* [Code Institute](https://www.youtube.com/watch?v=WTll5p4N7hE): This is from code institute to learn how to create love sandwiches project.
 
-* [Git_commit](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) I need to learn how to writing better commit messages.
+* [Git Commit](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/): I learn how to writing better commit messages.
+---
 
 ## Acknowledgements
 
@@ -239,3 +254,4 @@ You can fork this repository by using the following steps:
 * I would like to thank to my family for their patience, support, and understanding.
 
 * I would like to Code Institute's Slack community,and Deaf group for their support.
+---

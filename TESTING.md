@@ -47,7 +47,7 @@
 * I have fixed the code to require the user to press 'n' specifically to exit, and any other key doesn't exit the program. This make it clear to the user that 'n' is the specific key they need to press to exit, and other keys won't have the same effect. 
 
 ![press](/documentation/testing/input-y:n.png)
-
-
+---
 #### Unfixed bugs
 * No unfixed bugs.
+---
