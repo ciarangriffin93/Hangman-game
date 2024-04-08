@@ -30,6 +30,18 @@
 
 ![Image of no errors](/documentation/testing/no-errors.png)
 
+* I tested the words.py file, and there were no errors or warnings.
+
+![Image of no errors](/documentation/testing/words.png)
+
+* I tested the art_text.py file, and there were no errors or warnings.
+
+![Image of no errors](/documentation/testing/art-text.png)
+
+* I tested the hangman_stages.py file, and there were no errors or warnings.
+
+![Image of no errors](/documentation/testing/stages.png)
+
 ---
 
 ### Manual testing
