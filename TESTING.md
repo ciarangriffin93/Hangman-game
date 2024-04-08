@@ -22,7 +22,7 @@
 
 * User Story: As a user, I want the option to play again after completing or losing a game so that I can continue enjoying the Hangman experience.
   
-  * Test 1: I would like to Clicking on the "Play Again" button should start a new game session with a new word.
+  * Test 1: I would like to click on the "Play Again" button should start a new game session with a new word.
 ---
 
 ### CI Python inter
@@ -85,7 +85,7 @@
 
 ![Press](/documentation/testing/input-y.png)
 
-* I have fixed the code to require the user to press 'n' specifically to exit, and any other key doesn't exit the program. This make it clear to the user that 'n' is the specific key they need to press to exit, and other keys won't have the same effect. 
+* I have fixed this code to require the user to press 'n' specifically to exit, and any other key doesn't exit the program. This make it clear to the user that 'n' is the specific key they need to press to exit, and other keys won't have the same effect. 
 
 ![press](/documentation/testing/input-y:n.png)
 
@@ -93,4 +93,8 @@
 
 #### Unfixed bugs
 * No unfixed bugs.
+---
+
+Return back to [README.md](/README.md) file.
+
 ---

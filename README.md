@@ -20,7 +20,7 @@ This game is based on the hangman game:
 
 * The guesser will guess one letter at a time. If the letter is in the word, the hangman will fill in the blanks with the correct guesses.
 
-* If the letter is not in the word, the hangman will draw one body part for each incorrect guess: head, body, arm, and leg.
+* If the letter is not in the word, the hangman will draw one body part for each incorrect guess: head, body, and leg.
 ---
 
 ## User Stories
